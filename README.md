@@ -1,11 +1,11 @@
 # Odin's Recipes - A Nordic Recipes' WebPage
-This is a Nordic Recipes' WebPage project.
-This web page was made with Ubuntu 20.04 + VS Code 1.98.2 + a lot of imagination and hard work.
+This is a Nordic Recipes' WebPage project intended to practice basic front-end abilities.
+This web page was made with VS Code 1.98.2 + a lot of imagination and hard work.
 Teamwork was also an essential tool to make things happen, so thank you to all my coding partners who worked with me so far.
 
 ## Built with
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 ## Live Demo
