@@ -9,7 +9,7 @@ Teamwork was also an essential tool to make things happen, so thank you to all m
 - JavaScript
 
 ## Live Demo
-- Live version: N/A
+- Live version: [mrjuda.github.io/recipes](https://mrjuda.github.io/recipes/)
 
 ## Authors
 **Judá F Teixeira**
