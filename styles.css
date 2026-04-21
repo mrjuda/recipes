@@ -160,7 +160,7 @@ header {
       img {
         width: 16vh;
         height: 16vh;
-        border: solid 4px var(--color-btn-1);
+        /* border: solid 4px var(--color-btn-1); */
         border-radius: 1rem;
       }
     }
