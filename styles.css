@@ -175,7 +175,6 @@ header {
       img {
         width: 16vh;
         height: 16vh;
-        /* border: solid 4px var(--color-btn-1); */
         border-radius: 1rem;
       }
     }
@@ -247,11 +246,6 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  /* gap: 2rem; */
-
-  img, span {
-    /* width: 50%; */
-  }
 
   img {
     width: 2rem;
