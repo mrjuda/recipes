@@ -62,7 +62,7 @@ header {
   .header_menu {
     width: 65%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 
     li {
@@ -118,6 +118,8 @@ header {
     border-radius: 0.3rem;
     padding: 0.4rem;
     font-size: 18px;
+    border-width: 0.1rem;
+    border-color: var(--color-btn-1);
     color: var(--color-font-banner-2nd);
     background-color: var(--color-btn-1);
     cursor: pointer;
@@ -137,6 +139,8 @@ header {
   .btn_signup_1:hover, .btn_see_video:hover {
     color: var(--color-btn-1);
     background-color: var(--color-font-banner-2nd);
+    border-width: 0.1rem;
+    border-color: var(--color-btn-1);
     font-weight: bolder;
   }
 
