@@ -147,23 +147,19 @@ header {
     display: flex;
     padding: 1rem 0;
     gap: 4rem;
-    /* align-items: center; */
     justify-content: space-between;
 
     .info_item {
       display: flex;
       flex-direction: column;
-      /* height: 10rem; */
       width: 8rem;
       align-items: center;
-      /* justify-content: center; */
       text-align: center;
       gap: 0.5rem;
 
       img {
         width: 16vh;
         height: 16vh;
-        /* align-self: center; */
         border: solid 4px var(--color-btn-1);
         border-radius: 1rem;
       }
@@ -173,32 +169,26 @@ header {
 
 }
 
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-quote-bg);
+  gap: 1rem;
 
+  p {
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 300;
+  }
 
-h3 {
-  color: var(--color-3);
-  font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 34px;
-  margin: 0.6rem 0;
+  span {
+    align-self: flex-end;
+    font-weight: 700;
+  }
 }
 
-h4 {
-  color: var(--color-2);
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 700;
-}
 
-/* span {
-  font-size: 1.4rem;
-  color: var(--color-2);
-  font-weight: 500;
-} */
 
-p {
-  color: var(--color-1);
-}
 
 footer {
   color: var(--color-font-header-menu);
@@ -216,21 +206,8 @@ footer {
     width: 2rem;
     padding: 0.4rem;
   }
-  /* padding: 1rem 1.3rem;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  text-align: center; */
+  
 }
 
-/*
-header {
-  display: flex;
-  justify-content: left;
-  padding: 1rem 1.5rem;
-  padding-bottom: 2rem;
-  background: rgba(0, 0, 0, 0.9) url("../images/bg-header-mobile.png") no-repeat;
-  background-size: cover;
-} */
 
 
