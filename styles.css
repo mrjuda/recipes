@@ -12,6 +12,7 @@
   --color-bg-dark: #1f2937;
   --color-font-banner-1st: #f9faf8;
   --color-font-banner-2nd: #e5e7eb;
+  --color-font-banner-3rd: #b9c8e7;
   --color-btn-1: #3882f6;
   --color-info-txt: #1f2937;
   --color-quote-bg: #e5e7eb;
@@ -47,7 +48,6 @@ header {
   display: flex;
   position: sticky;
   top: 0;
-  /* align-items: center; */
   
   .header_logo {
     width: 35%;
@@ -304,6 +304,10 @@ footer {
       width: 100%;
     }
 
+    .header_logo {
+      color: var(--color-font-banner-3rd);
+    }
+
     .header_menu {
       justify-content: space-between;
     }
@@ -336,9 +340,14 @@ footer {
 
 @media screen and (max-width: 650px) {
   
-  * {
-    /* background-color: rgb(54, 78, 78); */
+  header, footer {
+    padding: 1.5vh 10vw;
   }
+
+  .sec1, .sec2, .sec3, .sec4 {
+    padding: 4vh 10vw 9vh 10vw;
+  }
+
 
   .sec1 {
     flex-direction: column;
