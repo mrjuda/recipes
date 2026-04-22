@@ -49,8 +49,7 @@ function greet() {
   const greeting = document.querySelector("#btnSignup");
   if(name == null) {
     greeting.textContent = `Sign up`;
-  }
-  else{
+  } else{
     greeting.textContent = `Hello ${name}!`;
   }
 }
