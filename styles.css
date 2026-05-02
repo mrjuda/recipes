@@ -119,7 +119,7 @@ header {
       color: var(--color-font-banner-2nd);
     }
   
-    .btn_signup_1, .btn_see_video {
+    .btn_signup_1, .btn_see_video, .btn_play {
       width: 7rem;
       border-radius: 0.3rem;
       padding: 0.4rem;
@@ -137,12 +137,19 @@ header {
       background-color: #2f3e53;
       padding: 1rem;
     }
+
+    .play_info {
+      font-style: italic;
+      color: var(--color-font-banner-2nd);
+      background-color: #2f3e53;
+      padding: 1rem;
+    }
   
-    .btn_see_video {
+    .btn_see_video, .btn_play {
       align-self: flex-end;
     }
   
-    .btn_signup_1:hover, .btn_see_video:hover {
+    .btn_signup_1:hover, .btn_see_video:hover, .btn_play:hover {
       color: var(--color-btn-1);
       background-color: var(--color-font-banner-2nd);
       border-width: 0.1rem;

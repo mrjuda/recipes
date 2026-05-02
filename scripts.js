@@ -6,6 +6,8 @@ function greet() {
   const greeting = document.querySelector("#btnSignup");
   if(name == null) {
     greeting.textContent = `Sign up`;
+  } else if (name === "play"){
+    window.location.href = "pages/playground.html";
   } else{
     greeting.textContent = `Hello ${name}!`;
   }
